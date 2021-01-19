@@ -1,0 +1,91 @@
+.color-blue {
+    width: 50%;
+    background-color: #CAF0F8;
+    animation: example 2s linear 0.5s infinite alternate;
+  }
+  
+  @keyframes example {
+    from {background-color: #03045E;}
+    to {background-color: #CAF0F8;}
+    
+  }
+
+  .color-deep-blue {
+    width: 50%;
+    background-color: #f20089;
+    animation: deepblue 2s linear 0.5s infinite alternate;
+  }
+  
+  @keyframes deepblue {
+    from {background-color: #f20089;}
+    to {background-color: #2d00f7;}
+    
+  }
+
+  .color-footer {
+    margin: 0;
+    width: 100%;
+    background-color: #444a4b;
+  
+  }
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+  .bg {
+    /* The image used */
+    background-image: url("../img/bg1\ \(1\).jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.connect-bg {
+  /* The image used */
+  background-image: url("../img/bg1\ \(2\).jpg");
+  
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-height{
+  height: 100%;
+}
+
+.content-middle{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  
+@media (max-width: 501px) {
+  .div-content {
+    margin-top: 20%;
+    margin-left: 2%;
+  }
+  
+
+}
+
+@media (min-width: 500px) {
+  .div-content {
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+}
